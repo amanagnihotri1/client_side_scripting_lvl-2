@@ -7,7 +7,6 @@ frappe.ui.form.on("Job Apply", {
            showDeveloperFields(frm);
         },
     role:(frm)=>{
-            console.log('its working or not');
             clearFieldValues(frm);
             let selectedRole = frm.doc.role; 
             // Update table fields based on the selected role
